@@ -32,12 +32,14 @@ github_url: ""
 
 # Build settings
 theme: project-dashboard
-plugins:
-  - jekyll-tailwind
+# plugins:
+#   - jekyll-tailwind
 
-tailwind:
-  minify: true
-
+# tailwind:
+#   config: tailwind.config.js
+#   input: _sass/project-dashboard.css
+#   output: _sass/project-dashboard.scss
+#   minify: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -46,19 +48,20 @@ tailwind:
 #
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
-#
-# exclude:
-#   - "*.js"
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+
+exclude:
+  - "*.gem"
+  - "*.gemspec"
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
