@@ -32,8 +32,8 @@ github_url: ""
 
 # Build settings
 theme: project-dashboard
-# plugins:
-#   - jekyll-tailwindcss
+plugins:
+  - jekyll-tailwindcss
 
 
 # Exclude from processing.
@@ -60,7 +60,11 @@ exclude:
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
-# nav_pages:
+nav_pages:
+  - coverage.markdown
+  - playwright-reports.markdown
+  - releases.markdown
+
 
 defaults:
   - scope:
