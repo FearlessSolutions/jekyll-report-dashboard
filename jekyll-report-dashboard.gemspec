@@ -3,13 +3,13 @@
 require_relative "theme_version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "project-dashboard"
-  spec.version       = ProjectDashboard::VERSION
+  spec.name          = "jekyll-report-dashboard"
+  spec.version       = ReportDashboard::VERSION
   spec.authors       = ["Tiffany Forkner"]
   spec.email         = ["tforkner@fearless.com"]
   
-  spec.summary       = "DEPRECATED: Jekyll theme for displaying software project reports (e.g. Playwright reports, code coverage reports, GitHub release notes)"
-  spec.homepage      = "https://github.com/FearlessSolutions/project-dashboard-theme"
+  spec.summary       = "Jekyll theme for displaying software project reports (e.g. Playwright reports, code coverage reports, GitHub release notes)"
+  spec.homepage      = "https://github.com/FearlessSolutions/jekyll-report-dashboard"
   spec.license       = "MIT"
 
   spec.metadata["plugin_type"] = "theme"
