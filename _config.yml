@@ -33,13 +33,8 @@ github_url: ""
 # Build settings
 theme: project-dashboard
 plugins:
-  - jekyll-tailwind
+  - jekyll-tailwindcss
 
-tailwind:
-  config: tailwind.config.js
-  input: _sass/project-dashboard.css
-  output: _sass/project-dashboard.scss
-  minify: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
