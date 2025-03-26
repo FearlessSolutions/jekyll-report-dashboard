@@ -31,12 +31,8 @@ github_username:  jekyll
 github_url: ""
 
 # Build settings
-theme: project-dashboard
-plugins:
-  - jekyll-postcss-v2
-
-postcss:
-  cache: false
+# theme:
+# plugins:
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -66,7 +62,6 @@ nav_pages:
   - coverage.markdown
   - playwright-reports.markdown
   - releases.markdown
-
 
 defaults:
   - scope:
