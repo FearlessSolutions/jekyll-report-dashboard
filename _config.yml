@@ -33,7 +33,7 @@ github_url: ""
 # Build settings
 theme: project-dashboard
 plugins:
-  - jekyll-tailwindcss
+- jekyll-postcss
 
 
 # Exclude from processing.

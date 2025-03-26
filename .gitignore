@@ -5,3 +5,4 @@ _site
 *.gem
 gem
 .DS_Store
+node_modules
