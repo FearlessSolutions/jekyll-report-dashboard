@@ -20,7 +20,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll", "~> 4.4"
   
-  spec.add_runtime_dependency 'jekyll-postcss', '~> 0.5.0'
+  spec.add_runtime_dependency "jekyll-postcss-v2", "~> 1.0", ">= 1.0.2"
 
   spec.add_development_dependency "bundler"
 end
