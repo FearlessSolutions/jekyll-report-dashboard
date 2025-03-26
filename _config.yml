@@ -39,7 +39,7 @@ tailwind:
   config: tailwind.config.js
   input: _sass/project-dashboard.css
   output: _sass/project-dashboard.scss
-  minify: true
+  minify: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
