@@ -21,6 +21,8 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = "~> 3.4.2"
 
   spec.add_dependency "jekyll", "~> 4.4"
+  
+  spec.add_runtime_dependency "jekyll-tailwind", "~> 2.1"
 
   spec.add_development_dependency "bundler"
 end
