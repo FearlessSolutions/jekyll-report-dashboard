@@ -32,7 +32,8 @@ github_url: ""
 
 # Build settings
 # theme:
-# plugins:
+plugins:
+  - jekyll-tailwindcss
 
 coverage:
   pass:
