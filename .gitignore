@@ -1,7 +1,10 @@
 .bundle
 .sass-cache
 Gemfile.lock
+_data
 _site
+coverage
+playwright-reports
 *.gem
 gem
 .DS_Store
