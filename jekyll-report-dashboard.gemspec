@@ -14,9 +14,13 @@ Gem::Specification.new do |spec|
 
   spec.metadata["plugin_type"] = "theme"
 
-  spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_includes|_layouts|_plugins|404|coverage|index|playwright-branches|playwright-reports|releases)!i) }
+  spec.files = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_includes|_layouts)!i) }
 
   spec.required_ruby_version = "~> 3.4.2"
+
+  spec.add_runtime_dependency "jekyll", "~> 4.4.1"
+
+  spec.add_runtime_dependency "jekyll-tailwindcss"
 
   spec.add_development_dependency "bundler"
 end

@@ -34,6 +34,18 @@ github_url: ""
 # theme:
 # plugins:
 
+coverage:
+  pass:
+    lines: 90
+    functions: 85
+    statements: 90
+    branches: 80
+  fail:
+    lines: 70
+    functions: 65
+    statements: 70
+    branches: 60
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
