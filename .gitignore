@@ -2,6 +2,7 @@
 .sass-cache
 Gemfile.lock
 _data
+_posts
 _site
 coverage
 playwright-reports
