@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module ReportDashboard
-  VERSION = "0.1.22"
+  VERSION = "1.0.0"
 end
