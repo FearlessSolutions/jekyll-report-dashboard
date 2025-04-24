@@ -22,5 +22,7 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency "jekyll-tailwindcss"
 
+  spec.add_runtime_dependency "jekyll-webp"
+
   spec.add_development_dependency "bundler"
 end
